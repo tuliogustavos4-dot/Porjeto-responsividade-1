@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    margin: 47px 41px;
+}
+.link-header {
+
+   font-family: Poppins;
+   font-weight: 500;
+   font: 18px;
+   margin: 47px 21px 0 41px; 
+   cursor: pointer;
+
+}
+
+.button-signUp{
+    color: white;
+    background: #4CB538;
+    height: 51px;
+    width: 124px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.container-lefet {
+    display: inline-block;
+    padding: 60px;
+    margin-left: 97px;
+}
+
+.img-logo{
+    display: inline-block;
+    margin-left: 121px;
+
+}
+
+h1{
+    color: #161a49;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 62px;
+    width: 582px;
+    font-weight: 700;
+    
+   
+}
+p {
+ 
+        width: 493px;
+        position: relative;
+        font-size: 18px;
+        line-height: 33px;
+        font-family: Poppins;
+        color: #4b505a;
+        text-align: left;
+        margin: 15px 0 15px 0;
+        
+       
+}
+.link-learnMore{
+    font-weight: 500;
+    font-family: Poppins;
+    color: #6fbf44;
+    text-align: left;
+    cursor: pointer;
+    
+    
+   
+}
+
+
+
+@media screen and (max-width: 700px) {
+     .container-lefet {
+        width: 100%;
+        height: 50%;
+        margin-left: 0px;
+        padding: 0px;
+        display: block;
+    } 
+    
+    
+    
+   
+    h1 {
+        font-size: 30px;
+        margin: 70px auto 29px;
+        text-align: center;
+        width: 278px;
+     
+    }
+
+    p {
+        text-align: center;
+        width: 304px;
+        margin: 5px auto 21px;
+        
+    }
+.link-header {
+    display: none;
+}
+   
+
+
+
+.link-learnMore {
+    margin-left: 170px;
+
+
+}
+
+.button-signUp {
+        display: block; /* Mostra o botão de inscrição */
+        margin: 20px 0 0 250px ;
+         width: 90px;
+        height: 31px;
+}
+        
+.img-logo{
+        
+        width: 305.79px;
+        height: 215.89px;
+        display: block;
+        
+        position: absolute;
+        top: 505px;
+        right: 50px;
+      
+        
+    }
+
+
+}
+    
